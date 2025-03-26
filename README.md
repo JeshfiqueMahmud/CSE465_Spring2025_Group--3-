@@ -1,5 +1,9 @@
 A.	Contribution Table:
+
+
 Name	Student ID	Contribution
+
+
 Jeshfique Mahmud	2111097642	
 
 - Designed the neural network architecture using ‘ResNeXt-50’  
