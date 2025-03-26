@@ -1,17 +1,21 @@
 A.	Contribution Table:
 Name	Student ID	Contribution
 Jeshfique Mahmud	2111097642	
+
 - Designed the neural network architecture using ‘ResNeXt-50’  
 - Implemented the ModifiedResNeXt class with custom classifier layers  
 - Tuned hyperparameters: optimizer, learning rate, scheduler, and label smoothing  
-- Led model training and validation over 25 epochs  
+- Led model training and validation over 25 epochs
+   
 Syeda Nusaiba Sharifeen	2132576642
+
 - Handled *dataset cleaning, splitting, and ‘custom DataLoader’ creation  
 - Applied *advanced image augmentation techniques* for better generalization  
 - Implemented ‘class balancing’ using WeightedRandomSampler  
 - Evaluated model with ‘confusion matrix, ‘classification report, and ‘cross-validation’
 
 Chadne.	2132112464
+
 - Documented the methodology, training results, and augmentation strategies  
 - Designed the *block diagram* representing the model's architecture  
 - Created inference scripts for real-world testing of trained models  
@@ -20,6 +24,7 @@ Chadne.	2132112464
 
 
 B.	Data Augmentation method:
+
 To enhance the performance and generalizability of the ResNeXt-50 architecture for classifying fake news images, we implemented the following data augmentation techniques in our model pipeline:
 1.	Resizing and Cropping
 •	Resize(256, 256) + RandomCrop(224) + RandomResizedCrop(224)
@@ -52,6 +57,7 @@ Our model addresses the complexities of distinguishing fake from real news image
 •	Manipulations like cropping, filtering, or blurring.
 •	Inconsistent lighting or resolution.
 •	Non-standard formats and layouts.
+
 These augmentations were selected to:
 •	Increase dataset diversity.
 •	Mitigate overfitting on limited training data.
@@ -77,7 +83,8 @@ Support 	1919	1918	3837
 
 
 
-D.	Final Plan for Completing the Project
+D.	Final Plan for Completing the Project:
+
 The project focuses on detecting multimodal news by text data and visual data (images) to improve accuracy and reliability. 
 The image-based model is built using Resnext-50, while text data is processed by architecture based on a transformer (for example: Bert).
 Two methods will be merged into a common model to classify whether it is real or wrong.
@@ -86,6 +93,7 @@ Two methods will be merged into a common model to classify whether it is real or
 
 
 The final plan includes:
+
 1.	Training the image-based model (ResNeXt-50) – already completed with 80.45% test accuracy.
 2.	Fine-tuning the text-based model using transformer-based architecture.
 3.	Integrating both models into a unified multimodal architecture for enhanced performance.
