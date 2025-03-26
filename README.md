@@ -56,6 +56,10 @@ These augmentations were selected to:
 •	Increase dataset diversity.
 •	Mitigate overfitting on limited training data.
 •	Encourage the model to learn high-level visual features rather than memorizing specific details.
+
+
+
+
 C.	Final Result:
 
 
